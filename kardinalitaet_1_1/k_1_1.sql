@@ -9,15 +9,15 @@ DROP TABLE IF EXISTS servants;
 CREATE TABLE IF NOT EXITS cats
 (
   id        INT     NOT NULL AUTO_INCREMENT,
-  cat_name  VARCHAR NOT NULL,
-  fur_color VARCHAR NOT NULL,
+  cat_name  VARCHAR(255) NOT NULL,
+  fur_color VARCHAR(255) NOT NULL,
   PRIMARY KEY (id)
 );
 -- Detailtabelle: Verbindung zur Mastertabelle über Fremdschlüssel
 CREATE TABLE servants
 (
   id           INT     NOT NULL AUTO_INCREMENT,
-  servant_name VARCHAR NOT NULL,
+  servant_name VARCHAR(255) NOT NULL,
   yrs_servant  TINYINT NOT NULL,
   id           INT     NOT NULL,
   PRIMARY KEY (id)
