@@ -10,7 +10,7 @@
     "show": 500,
     "database": 1,
     "databaseName": "design",
-    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "canvasType": "ERD",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -684,20 +684,20 @@
       "5bSdf8BIUKRDtSjaGrCDj": {
         "id": "5bSdf8BIUKRDtSjaGrCDj",
         "tableId": "RkHr_H8UmBjCGIlmrko6Q",
-        "name": "produts_id",
+        "name": "products_id",
         "comment": "",
         "dataType": "INT",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 2,
-          "widthName": 60,
+          "widthName": 64,
           "widthComment": 60,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1724319925274,
+          "updateAt": 1724322032529,
           "createAt": 1724319911671
         }
       }
@@ -862,7 +862,7 @@
           "columnIds": [
             "5bSdf8BIUKRDtSjaGrCDj"
           ],
-          "x": 556,
+          "x": 560,
           "y": 317,
           "direction": 2
         },
@@ -1249,7 +1249,7 @@
       -1,
       {
         "options(notNull)": 1724319911668,
-        "name": 1724319925274,
+        "name": 1724322032528,
         "dataType": 1724319911668,
         "default": 1724319911668,
         "comment": 1724319911668
